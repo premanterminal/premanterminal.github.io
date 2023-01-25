@@ -9,10 +9,19 @@
 <body>
   <div class="container my-5">
     <h1 class="text-center">Flutter Developer</h1>
-    <p class="text-center">Create beautiful and high-performance mobile apps with Flutter</p>
+    <p class="text-center">Expertise in building beautiful and high-performing mobile apps using Flutter</p>
     <div class="text-center">
-      <a href="#" class="btn btn-primary btn-lg">Learn More</a>
+      <a href="#" class="btn btn-primary btn-lg">View Portfolio</a>
     </div>
+    <div id="animation-container" class="text-center mt-5"></div>
   </div>
+  <script src="https://unpkg.com/react@17/umd/react.production.min.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js" crossorigin></script>
+  <script>
+    const Animation = () => {
+      return <h2>Example of React animation</h2>;
+    };
+    ReactDOM.render(<Animation />, document.getElementById("animation-container"));
+  </script>
 </body>
 </html>
